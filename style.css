@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.input{
+    text-align: center;
+    padding: 50px;
+    width: 30%;
+    background-color: aliceblue;
+}
+.input h2{
+    margin-bottom: 20px;
+    color: blueviolet;
+    font-size: 30px;
+}
+.input input{
+    padding: 5px;
+    height: 2em;
+    outline: none;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.426);
+}
+.input button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.input div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blocos{
+    width: 70%;
+    background-color: blueviolet;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.blocos div{
+    overflow: hidden;
+    background-color: white;
+    width: 13em;
+    height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 3px 3px 8px rgba(255, 254, 254, 0.793);
+}
+.blocos div button{
+    background-color: red;
+   color: white;
+   border: none;
+   padding: 4px;
+   cursor: pointer;
+}
